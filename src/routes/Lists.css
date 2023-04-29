@@ -1,0 +1,80 @@
+/* Estilos da tabela */ 
+  .table-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  th, td  {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-inline: 24px;
+  }
+
+   .table-container .icones{
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    padding-right: 24px;
+  }
+
+  th {
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos dos filtros */
+  label {
+    margin-right: 10px;
+  }
+  
+  .table-container input[type="text"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 30vw;
+  }
+  
+  /* Estilos do título */
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .online , .offline {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 4px;
+  }
+  .online {
+    background-color: green;
+  }
+
+  .offline {
+    background-color: red;
+  }
+
+  .copy{
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+  }
